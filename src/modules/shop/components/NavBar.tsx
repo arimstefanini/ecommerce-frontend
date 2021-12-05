@@ -22,12 +22,6 @@ const Left = styled.div`
     align-items: center;
 `;
 
-const Language = styled.span`
-    font-size: 14px;
-    ${mobile( {display: "none" })}
-
-`;
-
 const SearchContainer = styled.div`
     border: 0.5px solid;
     display: flex;
