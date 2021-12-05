@@ -1,4 +1,4 @@
-import Topbar from "../../components/admin/Topbar"
+import Topbar from "../components/Topbar"
 
 const Admin = () => {
     return(

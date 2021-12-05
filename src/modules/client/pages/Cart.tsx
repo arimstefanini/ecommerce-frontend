@@ -1,18 +1,15 @@
 import { Add, Remove } from '@material-ui/icons';
 import styled from 'styled-components';
-import Announcement from '../../components/client/Announcement';
-import Navbar from '../../components/client/NavBar';
-import { mobile } from '../../responsive';
-import Footer from '../../components/client/Footer';
+import { mobile } from '../responsive';
+import Announcement from '../components/Announcement';
+import Footer from '../components/Footer';
+import Navbar from '../components/NavBar';
 
-const Container = styled.div`
-    
-`;
+const Container = styled.div``;
 
 const Wrapper = styled.div`
     padding: 20px;
     ${mobile({ padding: "10px" })}
-
 `;
 
 const Title = styled.h1`

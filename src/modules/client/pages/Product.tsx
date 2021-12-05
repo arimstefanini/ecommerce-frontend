@@ -1,10 +1,10 @@
 import { Add, Remove } from '@material-ui/icons';
 import styled from 'styled-components';
-import Announcement from '../../components/client/Announcement';
-import Footer from '../../components/client/Footer';
-import Navbar from '../../components/client/NavBar';
-import Newsletter from '../../components/client/Newsletter';
-import { mobile } from '../../responsive';
+import Announcement from '../components/Announcement';
+import Footer from '../components/Footer';
+import Navbar from '../components/NavBar';
+import Newsletter from '../components/Newsletter';
+import { mobile } from '../responsive';
 
 const Container = styled.div``;
 

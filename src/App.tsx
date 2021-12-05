@@ -1,4 +1,4 @@
-import Admin from "./pages/admin/Main";
+import Admin from "./modules/admin/pages/Main";
 
 const App = () => {
   return <Admin/>;

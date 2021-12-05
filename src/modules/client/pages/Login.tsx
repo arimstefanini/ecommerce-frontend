@@ -1,6 +1,5 @@
-import styled from 'styled-components'
-import { mobile } from '../../responsive';
-
+import styled from 'styled-components';
+import { mobile } from '../responsive';
 
 const Container = styled.div`
     width: 100vw;
@@ -19,7 +18,7 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-    width: 40%;
+    width: 25%;
     padding: 20px;
     background-color: white;
     ${mobile({ width: "75%" })}
@@ -33,20 +32,16 @@ const Title = styled.h1`
 
 const Form = styled.form`
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 `;
 
 const Input = styled.input`
     flex: 1;
     min-width: 40%;
-    margin: 20px 10px 0px 0px;
+    margin: 10px 0px;
     padding: 10px;
 `;
 
-const Agreement = styled.span`
-    font-size: 12px;
-    margin: 20px 0px;
-`;
 
 const Button = styled.button`
     width: 40%;
@@ -57,26 +52,29 @@ const Button = styled.button`
     cursor: pointer;
 `;
 
-const Register = () => {
+
+const Link = styled.a`
+    margin: 10px 0px;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+`;
+
+const Login = () => {
     return(
         <Container>
             <Wrapper>
-                <Title>CRIE UM CONTA</Title>
+                <Title>SUA CONTA</Title>
                 <Form>
                     <Input placeholder="Nome" />
                     <Input placeholder="Sobrenome" />
-                    <Input placeholder="email" />
-                    <Input placeholder="usuário" />
-                    <Input placeholder="senha" />
-                    <Input placeholder="confirme senha" />
-                    <Agreement>
-                        Ao criar uma conta, aceito os Ao criar uma conta, aceito os <b>TERMOS</b>
-                    </Agreement>
-                    <Button>Criar</Button>
+                    <Button>Login</Button>
+                    <Link>Esqueceu sua senha?</Link>
+                    <Link>Criar uma conta</Link>
                 </Form>
             </Wrapper>
         </Container>
     );
 };
 
-export default Register;
+export default Login;
