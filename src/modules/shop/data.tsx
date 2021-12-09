@@ -29,16 +29,19 @@ export const categories = [
         id: 1,
         img: "https://images.alphacoders.com/113/thumb-1920-113653.jpg",
         title: "LONTRA",
+        cat:"casa"
     },
     {
         id: 2,
         img: "https://wallpaperaccess.com/full/2910710.jpg",
         title: "PINGUIM",
+        cat:"cozinha"
     },
     {
         id: 3,
         img: "https://wallpaper29.files.wordpress.com/2016/09/ice-fox-wallpaper-1600x900.jpg",
         title: "FOX",
+        cat: "jardim"
     },
 
 ];
